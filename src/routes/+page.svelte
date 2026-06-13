@@ -1,7 +1,12 @@
 <script lang="ts">
-  import { browser } from "$app/environment";
+  import { onMount } from "svelte";
+
   let channel = "PotatBotat";
-  let host = browser ? window.location.hostname : '';
+  let host = $state('');
+
+  onMount(() => {
+    host = window.location.hostname;
+  });
 </script>
 
 <div class="layout">
