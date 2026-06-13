@@ -1,11 +1,12 @@
 <script lang="ts">
   let channel = "PotatBotat";
+  let host = window.location.hostname;
 </script>
 
 <div class="layout">
   <div class="stream">
     <iframe
-      src={`https://player.twitch.tv/?channel=${channel}&parent=localhost&potat.vip&www.potat.vip`}
+      src={`https://player.twitch.tv/?channel=${channel}&parent=${host}&darkpopout`}
       height="100%"
       width="100%"
       title="stream"
@@ -15,7 +16,7 @@
 
   <div class="chat">
     <iframe
-      src={`https://www.twitch.tv/embed/${channel}/chat?parent=localhost&potat.vip&www.potat.vip`}
+      src={`https://www.twitch.tv/embed/${channel}/chat?parent=${host}&darkpopout`}
       height="100%"
       width="100%"
       title="chat"
