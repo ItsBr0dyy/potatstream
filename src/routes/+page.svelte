@@ -5,7 +5,7 @@
 <div class="layout">
   <div class="stream">
     <iframe
-      src={`https://player.twitch.tv/?channel=${channel}&parent=localhost&potat.vip`}
+      src={`https://player.twitch.tv/?channel=${channel}&parent=localhost&www.potat.vip`}
       height="100%"
       width="100%"
       title="stream"
@@ -15,7 +15,7 @@
 
   <div class="chat">
     <iframe
-      src={`https://www.twitch.tv/embed/${channel}/chat?parent=localhost&potat.vip`}
+      src={`https://www.twitch.tv/embed/${channel}/chat?parent=localhost&www.potat.vip`}
       height="100%"
       width="100%"
       title="chat"
