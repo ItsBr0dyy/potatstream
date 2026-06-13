@@ -1,6 +1,7 @@
 <script lang="ts">
+  import { browser } from "$app/environment";
   let channel = "PotatBotat";
-  let host = window.location.hostname;
+  let host = browser ? window.location.hostname : '';
 </script>
 
 <div class="layout">
