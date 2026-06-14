@@ -2,6 +2,10 @@
 
 Currently hosted on: https://potat.vip
 
+## Future Ideas
+
+I want to implement its own built-in chat instead of using a twitch embed so people can login and type because that seems like an issue currently, where you cannot login.
+
 ## Developing
 
 ```sh
